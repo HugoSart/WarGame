@@ -11,4 +11,6 @@ package image;
  */
 public class DSsasad {
     
+    // OS CARA É GAY
+    
 }
