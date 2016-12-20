@@ -12,5 +12,5 @@ package image;
 public class DSsasad {
     
     // OS CARA É GAY
-    
+    // só ozé é viado
 }
