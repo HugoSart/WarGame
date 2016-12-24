@@ -5,7 +5,7 @@
  */
 package wargame.gui;
 
-import wargame.image.ImageURL;
+import wargame.util.image.ImageURL;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Image;

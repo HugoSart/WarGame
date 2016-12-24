@@ -1,11 +1,11 @@
-package wargame;
+package wargame.gameplay;
 
 import java.util.Random;
-import wargame.map.Continent;
-import wargame.map.Coord;
-import wargame.map.Map;
-import wargame.map.Territory;
-import wargame.player.Player;
+import wargame.gameplay.map.Continent;
+import wargame.gameplay.map.Coord;
+import wargame.gameplay.map.Map;
+import wargame.gameplay.map.Territory;
+import wargame.gameplay.player.Player;
 
 public class Gameplay {
 

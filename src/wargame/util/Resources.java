@@ -12,7 +12,7 @@ import java.net.URL;
 import javax.naming.Context;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
-import wargame.image.ImageURL;
+import wargame.util.image.ImageURL;
 
 /**
  *

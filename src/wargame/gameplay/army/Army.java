@@ -1,4 +1,4 @@
-package wargame.army;
+package wargame.gameplay.army;
 
 /** @author Hugo Sartori */
 public abstract class Army {

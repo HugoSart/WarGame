@@ -1,4 +1,4 @@
-package wargame.map;
+package wargame.gameplay.map;
 
 import java.awt.Color;
 import java.util.ArrayList;

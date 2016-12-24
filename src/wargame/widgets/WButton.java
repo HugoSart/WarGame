@@ -1,7 +1,11 @@
 package wargame.widgets;
 
 import java.awt.Color;
+import java.awt.Font;
+import java.awt.FontFormatException;
 import java.awt.event.MouseEvent;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
@@ -11,6 +15,7 @@ import wargame.util.Log;
 import wargame.util.audio.Effect;
 import wargame.util.audio.Track;
 import wargame.util.audio.songs.MediaURL;
+import wargame.util.fonts.FontsURL;
 
 /**
  * @author Hugo Sartori
@@ -23,13 +28,13 @@ public class WButton extends JButton implements java.awt.event.MouseListener {
     private Color colorMouseOverPost;
 
     public WButton() {
-           
+
         setBorderPainted(false);
         setContentAreaFilled(false);
         setFocusPainted(false);
         setOpaque(false);
 
-        addMouseListener(this);   
+        addMouseListener(this);
     }
 
     private boolean playEffectSound(String inOut) {
@@ -54,12 +59,12 @@ public class WButton extends JButton implements java.awt.event.MouseListener {
 
     @Override
     public void mousePressed(MouseEvent e) {
-        
+
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        
+
     }
 
     @Override
@@ -98,11 +103,11 @@ public class WButton extends JButton implements java.awt.event.MouseListener {
     public void setMouseClickMediaName(String mouseClickMediaName) {
         this.mouseClickMediaName = mouseClickMediaName;
     }
-    
+
     public Color getColorMouseOverPost() {
         return colorMouseOverPost;
     }
-    
+
     public void setColorMouseOverPost(Color color) {
         this.colorMouseOverPost = color;
     }

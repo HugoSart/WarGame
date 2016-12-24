@@ -1,4 +1,4 @@
-package wargame.map;
+package wargame.gameplay.map;
 
 /** @author Hugo Sartori */
 public enum Continent {

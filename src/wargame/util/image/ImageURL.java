@@ -1,4 +1,4 @@
-package wargame.image;
+package wargame.util.image;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

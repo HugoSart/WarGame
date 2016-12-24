@@ -7,10 +7,10 @@ package Gameplay;
 
 import java.awt.Color;
 import java.util.Random;
-import wargame.map.Continent;
-import wargame.map.Coord;
-import wargame.map.Map;
-import wargame.player.Player;
+import wargame.gameplay.map.Continent;
+import wargame.gameplay.map.Coord;
+import wargame.gameplay.map.Map;
+import wargame.gameplay.player.Player;
 
 /**
  *
@@ -18,13 +18,13 @@ import wargame.player.Player;
  */
 public class Gameplay {
     
-    public static wargame.Gameplay game;
+    public static wargame.gameplay.Gameplay game;
     
     public static void main(String[] args) {
         Player p1 = new Player("xXx_PussyKiller_xXx", Color.RED);
         Player p2 = new Player("BOT Fallen", Color.BLUE);
         
-        game = new wargame.Gameplay(p1, p2);
+        game = new wargame.gameplay.Gameplay(p1, p2);
         
         game.distributeTerritories();
         

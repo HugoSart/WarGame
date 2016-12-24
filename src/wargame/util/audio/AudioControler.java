@@ -5,14 +5,6 @@
  */
 package wargame.util.audio;
 
-import java.net.URL;
-import javafx.embed.swing.JFXPanel;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javax.naming.Context;
-import wargame.util.Log;
-import wargame.util.Resources;
-
 /**
  *
  * @author hugovs

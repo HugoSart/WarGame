@@ -1,4 +1,4 @@
-package wargame.player;
+package wargame.gameplay.player;
 
 import java.awt.Color;
 
