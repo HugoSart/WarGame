@@ -90,7 +90,6 @@ public class StartScreen extends javax.swing.JFrame {
         btNewGame.setColorMouseOver(new java.awt.Color(102, 153, 255));
         btNewGame.setColorMouseOverPost(java.awt.Color.lightGray);
         btNewGame.setFont(new java.awt.Font("Perfect Dark (BRK)", 1, 36)); // NOI18N
-        btNewGame.setMouseClickMediaName("menu_mouse_over.wav/");
         btNewGame.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btNewGameActionPerformed(evt);
@@ -144,7 +143,7 @@ public class StartScreen extends javax.swing.JFrame {
         jPanel2.add(btSettings);
         btSettings.setBounds(180, 360, 240, 30);
 
-        lbBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/menu_background.jpg"))); // NOI18N
+        lbBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wargame/util/image/menu_background.jpg"))); // NOI18N
         jPanel2.add(lbBackground);
         lbBackground.setBounds(-610, 0, 2620, 1230);
 
